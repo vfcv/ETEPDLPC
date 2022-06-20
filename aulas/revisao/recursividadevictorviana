@@ -1,0 +1,10 @@
+#Tema principal: Recursividade Logica
+def contRegressiva(n):
+  print(n)
+  n=n-1
+  if n>0:
+    contRegressiva(n)
+  else:
+      print('decolar')
+
+contRegressiva(25)
